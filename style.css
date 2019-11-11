@@ -18,6 +18,11 @@ body {
     margin-bottom:5px;
 }
 
+.focus {   
+    font-style: italic;
+    text-decoration: none;
+}
+
 h1 {
     text-align: center;
     margin:0px;
@@ -72,4 +77,28 @@ main:after{
 
 .border-line.bottom {
     margin-top: 50px;
+}
+
+.border-line.portfolio {
+    background-color:grey;
+}
+
+.project-box {
+    width:30%;
+    height: 325px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.40);
+    text-align: center;
+    padding-top: 280px;
+    font-size: 16pt;
+    margin-bottom: 50px;
+    }
+
+.project-box.center-box {
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.project-text {
+    vertical-align: text-bottom;
 }
