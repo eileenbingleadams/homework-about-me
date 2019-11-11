@@ -1,0 +1,75 @@
+body {
+    background-color:white;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.border-line {
+    background-color:black;
+    height:3px;
+}
+
+.header-nav {
+    margin-top:10px;
+    text-align: center;
+}
+
+.nav-item {
+    display:inline-block;
+    margin-bottom:5px;
+}
+
+h1 {
+    text-align: center;
+    margin:0px;
+    font-family: Georgia;
+}
+
+h2 {
+    font-family: Georgia;
+}
+
+h3 {
+    font-size: 14pt;
+}
+
+main {
+    margin-left:75px;
+    margin-right:75px;
+}
+
+.break-line-one {
+    margin-bottom: 30px;
+}
+
+section {
+    float: left;
+}
+
+.about-me-content {
+    width:75%;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 14pt;
+}
+
+.about-me-picture {
+    width:25%;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.footer-nav {
+    text-align: center;
+}
+
+main:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.border-line.bottom {
+    margin-top: 50px;
+}
