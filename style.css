@@ -16,8 +16,7 @@ body {
 .nav-item {
     display:inline-block;
     margin-bottom:5px;
-    font-size: 14pt;
-    font-style: bold;
+    font-size: 16pt;
 }
 
 .focus {   
