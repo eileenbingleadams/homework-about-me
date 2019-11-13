@@ -16,6 +16,8 @@ body {
 .nav-item {
     display:inline-block;
     margin-bottom:5px;
+    font-size: 14pt;
+    font-style: bold;
 }
 
 .focus {   
@@ -32,10 +34,6 @@ h1 {
 
 h2 {
     font-family: Georgia;
-}
-
-h3 {
-    font-size: 14pt;
 }
 
 main {
